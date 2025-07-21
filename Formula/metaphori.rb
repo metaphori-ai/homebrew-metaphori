@@ -1,7 +1,7 @@
 class Metaphori < Formula
   desc "AI prompt compression CLI - Compress More. Spend Less. Think Better."
   homepage "https://metaphori.dev"
-  version "0.1.2"
+  version "0.1.3"
   license "MIT"
 
   # Binary releases for different platforms
