@@ -7,16 +7,16 @@ class Metaphori < Formula
   # Binary releases for different platforms
   if OS.mac? && Hardware::CPU.arm?
     url "https://metaphori-releases.s3.amazonaws.com/v#{version}/metaphori-#{version}-darwin-arm64.tar.gz"
-    sha256 "e70d3d8db1e45aa76cfa4cfde97b280c91696dfb4bb8f517f286f5c77384de28"
+    sha256 "5c8c31c7c5de9783fb5d3920e35bdfdc5c23a68c33d00d7d1d2781e2a7f5e845"
   elsif OS.mac? && Hardware::CPU.intel?
     url "https://metaphori-releases.s3.amazonaws.com/v#{version}/metaphori-#{version}-darwin-amd64.tar.gz"
-    sha256 "1bbb521e2c566de25881f4ad262581e24d282594d23fb15246a9c3d3c334f3f0"
+    sha256 "b268f8e18b726c4ab7a0676d0020ae2e83b0f9de2ca2a894c68cfead8550deb3"
   elsif OS.linux? && Hardware::CPU.intel?
     url "https://metaphori-releases.s3.amazonaws.com/v#{version}/metaphori-#{version}-linux-amd64.tar.gz"
-    sha256 "8d7e881c35b5a8a97ba895d12d696274c38507abedb74ca4cd52268230b3dfe6"
+    sha256 "3ec07a3f83ecfa22b437cfd73eaaef3c73a9e1ece4ef7fd2e753192c654d3bd0"
   elsif OS.linux? && Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
     url "https://metaphori-releases.s3.amazonaws.com/v#{version}/metaphori-#{version}-linux-arm64.tar.gz"
-    sha256 "52d978b6d89f2ce09fb68119aef90e8ef393e7f96c0e1d8623790f82171dc5c2"
+    sha256 "1d30d045bbda4459c3f0476923c5e4ab3a88c281bc2ff86e897601b8f24fa9fc"
   end
 
   def install
