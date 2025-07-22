@@ -5,7 +5,7 @@ This is the official Homebrew tap for [Metaphori CLI](https://github.com/metapho
 ## Installation
 
 ```bash
-brew tap metaphori-com/metaphori
+brew tap metaphori-ai/metaphori
 brew install metaphori
 ```
 
