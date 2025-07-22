@@ -1,6 +1,6 @@
 # Metaphori Homebrew Tap
 
-This is the official Homebrew tap for [Metaphori CLI](https://github.com/metaphori-com/metaphori-cli).
+This is the official Homebrew tap for [Metaphori CLI](https://github.com/metaphori-ai/metaphori-cli).
 
 ## Installation
 
@@ -17,11 +17,7 @@ Metaphori Engine™ is a patent-pending context processing engine that annihilat
 
 - `metaphori` - The Metaphori CLI tool
 
-## Documentation
-
-For more information, see the [main repository](https://github.com/metaphori-com/metaphori-cli).
-
 ## Support
 
-- Issues: [GitHub Issues](https://github.com/metaphori-com/metaphori-cli/issues)
+- Issues: [GitHub Issues](https://github.com/metaphori-ai/homebrew-metaphori/issues)
 - Email: support@metaphori.dev
