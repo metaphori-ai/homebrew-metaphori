@@ -20,4 +20,4 @@ Metaphori Engine™ is a patent-pending context processing engine that annihilat
 ## Support
 
 - Issues: [GitHub Issues](https://github.com/metaphori-ai/homebrew-metaphori/issues)
-- Email: support@metaphori.dev
+- Email: support@metaphori.ai
