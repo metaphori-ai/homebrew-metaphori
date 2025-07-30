@@ -1,22 +1,22 @@
 class Metaphori < Formula
   desc "AI prompt compression CLI - Compress More. Spend Less. Think Better."
   homepage "https://metaphori.dev"
-  version "0.4.0"
+  version "0.4.1"
   license "MIT"
 
   # Binary releases for different platforms
   if OS.mac? && Hardware::CPU.arm?
     url "https://metaphori-releases.s3.amazonaws.com/v#{version}/metaphori-#{version}-darwin-arm64.tar.gz"
-    sha256 "a1fdf944f53d3a0ae405395d1b7a0f4143b4bde76b236176e9709cd4b054c048"
+    sha256 "27f728c8e04087f7d012891c3c37e8c55f0dc95ec1f9605edcc1a60ce34e5106"
   elsif OS.mac? && Hardware::CPU.intel?
     url "https://metaphori-releases.s3.amazonaws.com/v#{version}/metaphori-#{version}-darwin-amd64.tar.gz"
-    sha256 "1cf4366ba694ca0556f07519ecedffb2e2b38d0318c86134fdd39d9d9d3cf50f"
+    sha256 "bf37bcfbdc0c1cf9e39ca63272c8c04a3d7e08980988ea10db7c0a1eb14e2d1e"
   elsif OS.linux? && Hardware::CPU.intel?
     url "https://metaphori-releases.s3.amazonaws.com/v#{version}/metaphori-#{version}-linux-amd64.tar.gz"
-    sha256 "100f28e4c4c412e477ea32120e594b343a6efd8159a161ab94b81f21b1a0b803"
+    sha256 "453abfdb5101580f4462f83a086107e4d7992fa5451f686038564272e4af7538"
   elsif OS.linux? && Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
     url "https://metaphori-releases.s3.amazonaws.com/v#{version}/metaphori-#{version}-linux-arm64.tar.gz"
-    sha256 "c749d99921b63daadd379c29db9e54b988b9739a59ba5670787055221e4ec1cc"
+    sha256 "d3c5c49454a5c814f64d435bb444a398fb1a26b2c6ed972e2092a88e1c25af8c"
   end
 
   def install
